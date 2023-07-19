@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Hobby</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="biodata.html">About me</a>
+        <a href="experience.html">Experience</a>
+        <a href="education.html">Education</a>
+        <a href="myhobby.html">My Hobby</a>
+        <a href="contact.html">Contact me</a>
+    </div>
+    <div class="center"> <!-- Wrapper div for centering the content -->
+        <h1 class="center">MY HOBBIES</h1>
+        <table class="hobby-table">
+            <tr>
+                <td>
+                        <a href="images/WhatsApp Video 2023-07-19 at 2.00.00 PM (1).mp4">
+                            <video src="images/WhatsApp Video 2023-07-19 at 2.00.00 PM (1).mp4" width="200" height="150" border="2">
+                        </a>
+                        <p><b>Reading Book</b></p>
+
+                    <p class="center">I like to read Non-Fiction Book, during my leisure time.</p>
+                </td>
+                <td>
+                    
+                        <a href="images/photo_2023-07-20_04-44-34.jpg">
+                            <img src="images/photo_2023-07-20_04-44-34.jpg" width="200" height="150" border="2" onclick="toggleImageSize(this)">
+                        </a>
+                        <p><b>Taekwondo</b></p>
+                    <p class="center">I love Taekwondo. I also have joined a competition in Penang this June.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        function toggleImageSize(img) {
+            img.classList.toggle("enlarged-image");
+        }
+</body>
+</html>
+
+
+
+
+
+
